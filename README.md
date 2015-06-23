@@ -16,7 +16,6 @@ ios, spritekit, painting board, objective-c
 * Item
 * Item
 * Item
-
 - Item
 - Item
 - Item
