@@ -14,6 +14,8 @@
 		8B36DE271B3894B300DB8E73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B36DE261B3894B300DB8E73 /* Images.xcassets */; };
 		8B36DE2A1B3894B300DB8E73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B36DE281B3894B300DB8E73 /* LaunchScreen.xib */; };
 		8B36DE361B3894B300DB8E73 /* AKPaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B36DE351B3894B300DB8E73 /* AKPaintTests.m */; };
+		8B36DE411B38960C00DB8E73 /* AKPaintDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B36DE401B38960C00DB8E73 /* AKPaintDemo.m */; };
+		8BE4FB7D1B3990730097E15B /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4FB7C1B3990730097E15B /* eraser.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		8B36DE2F1B3894B300DB8E73 /* AKPaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKPaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B36DE341B3894B300DB8E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B36DE351B3894B300DB8E73 /* AKPaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPaintTests.m; sourceTree = "<group>"; };
+		8B36DE3F1B38960C00DB8E73 /* AKPaintDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPaintDemo.h; sourceTree = "<group>"; };
+		8B36DE401B38960C00DB8E73 /* AKPaintDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPaintDemo.m; sourceTree = "<group>"; };
+		8BE4FB7C1B3990730097E15B /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +86,13 @@
 		8B36DE181B3894B300DB8E73 /* AKPaint */ = {
 			isa = PBXGroup;
 			children = (
+				8BE4FB7C1B3990730097E15B /* eraser.png */,
 				8B36DE1D1B3894B300DB8E73 /* AppDelegate.h */,
 				8B36DE1E1B3894B300DB8E73 /* AppDelegate.m */,
 				8B36DE201B3894B300DB8E73 /* ViewController.h */,
 				8B36DE211B3894B300DB8E73 /* ViewController.m */,
+				8B36DE3F1B38960C00DB8E73 /* AKPaintDemo.h */,
+				8B36DE401B38960C00DB8E73 /* AKPaintDemo.m */,
 				8B36DE231B3894B300DB8E73 /* Main.storyboard */,
 				8B36DE261B3894B300DB8E73 /* Images.xcassets */,
 				8B36DE281B3894B300DB8E73 /* LaunchScreen.xib */,
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B36DE251B3894B300DB8E73 /* Main.storyboard in Resources */,
+				8BE4FB7D1B3990730097E15B /* eraser.png in Resources */,
 				8B36DE2A1B3894B300DB8E73 /* LaunchScreen.xib in Resources */,
 				8B36DE271B3894B300DB8E73 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B36DE221B3894B300DB8E73 /* ViewController.m in Sources */,
+				8B36DE411B38960C00DB8E73 /* AKPaintDemo.m in Sources */,
 				8B36DE1F1B3894B300DB8E73 /* AppDelegate.m in Sources */,
 				8B36DE1C1B3894B300DB8E73 /* main.m in Sources */,
 			);
@@ -416,6 +426,7 @@
 				8B36DE3B1B3894B300DB8E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B36DE3C1B3894B300DB8E73 /* Build configuration list for PBXNativeTarget "AKPaintTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				8B36DE3E1B3894B300DB8E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

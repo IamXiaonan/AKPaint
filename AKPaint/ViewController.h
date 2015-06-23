@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SpriteKit/SpriteKit.h>
+#import "AKPaintDemo.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) SKView *skView;
+@property (nonatomic, strong) AKPaintDemo *myScene;
 
 @end
 
